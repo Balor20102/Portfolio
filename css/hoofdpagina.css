@@ -66,7 +66,7 @@ header {
 /*________________________________________________________*/
 
 .container{
-    background-image: linear-gradient(to right bottom,rgb(255, 255, 255), rgb(202, 202, 202));
+    background-image: linear-gradient(to right bottom,rgb(255, 255, 255), rgb(202, 202, 202) url(resources/mountians.jpg));
     background-size: cover;
     background-position: center;
     position: relative;
@@ -152,7 +152,7 @@ header {
 /*________________________________________________________*/
 
 .Background{
-    background-image: linear-gradient(to right bottom,rgb(255, 255, 255), rgb(126, 203, 223));
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(58, 145, 160, 0.7)), url(../resources/mountains_3.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -173,4 +173,3 @@ header {
     from{ background-color: white;}
     to { background-color: whitesmoke;}
 }
->>>>>>> Stashed changes:css/hoofdpagina.css
