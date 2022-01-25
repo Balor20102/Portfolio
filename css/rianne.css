@@ -1,37 +1,9 @@
-/*________________________________________________________*/
-/*___Header_______________________________________________*/
-/*________________________________________________________*/
-
-header {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-}
-
-.name{
-    display: block;
-     float:  right;
-
-     padding: 25px 50px;
-     margin-top: 2px;
-     margin-right: 100px;
-     margin-left: 10px;
-
-     font-size: 30px;
-     font-family: 'Monotype Corsiva', 'Calibri italic';
-
-     text-decoration: none;
-     color: black;
-     font-family: ;
- }
-
- .BtnNaviIcon{
+.BtnNaviIcon{
 
     display: block;
     float: left;
 
     padding: 25px 50px;
-    margin-top: 15px;
     margin-right: 100px;
 
     font-size: 20px;
@@ -41,16 +13,49 @@ header {
 }
 
 .BtnNaviIcon:hover{
-    background-color: #e0d5b4;
+    background-color: rgba(240, 234, 218);
 
     animation-name: hover;
     animation-duration: 1s;
 }
 
 /*________________________________________________________*/
+/*___achtergrond__________________________________________*/
+/*________________________________________________________*/
+
+.Background{
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(58, 145, 160, 0.7)), url(../resources/mountains_3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+}
+
+/*________________________________________________________*/
+/*___bovendeel____________________________________________*/
+/*________________________________________________________*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 150px);
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    background-color: rgba(224, 213,180);
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+
+/*________________________________________________________*/
 /*___animations___________________________________________*/
 /*________________________________________________________*/
 
 @keyframes hover{
-    from{ background-color: #f0eada;}
-    to { background-color: #e0d5b4;}
+    from{ background-color: rgba(224, 213,180);}
+    to { background-color: rgba(240, 234, 218);}
+}
