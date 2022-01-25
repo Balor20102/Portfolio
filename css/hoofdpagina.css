@@ -1,89 +1,4 @@
-<<<<<<< Updated upstream:css/style.css
-/*donkerbruine kleurRGB: 224, 213,180 #e0d5b4
-  lichtbruine kleurRGB: 240, 234, 218 #f0eada*/
 
-/*________________________________________________________*/
-/*___setup________________________________________________*/
-/*________________________________________________________*/
-
-* {
-margin: 0;
-padding: 0;
-
-font-family: 'Myriad Pro', 'Arial';
-}
-
-/*________________________________________________________*/
-/*___Header_______________________________________________*/
-/*________________________________________________________*/
-
-header {
-  display: flex;
-  flex-direction: row;
-  background-color: #f0eada;
-}
-
-.name{
-    display: block;
-     float:  right;
-
-     padding: 25px 50px;
-     margin-top: 2px;
-     margin-right: 100px;
-     margin-left: 10px;
-
-     font-size: 44px;
-     font-family: 'Monotype Corsiva', 'Calibri italic';
-
-     text-decoration: none;
-     color: black;
- }
-
-.BtnNavi{
-
-    display: block;
-    float: left;
-
-    padding: 25px 50px;
-    margin-top: 15px;
-    margin-right: 100px;
-
-    font-size: 20px;
-
-    text-decoration: none;
-    color: black;
-}
-
-.BtnNavi:hover{
-    background-color: #e0d5b4;
-
-    animation-name: hover;
-    animation-duration: 1s;
-}
-
-/*________________________________________________________*/
-/*___achtergrond__________________________________________*/
-/*________________________________________________________*/
-
-.container{
-    background-image: linear-gradient(to right bottom,rgb(224, 213,180, 0.7), rgba(240, 234, 218, 0.7) url(resources/mountians.jpg));
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 600px;
-}
-
-
-
-/*________________________________________________________*/
-/*___animations___________________________________________*/
-/*________________________________________________________*/
-
-@keyframes hover{
-    from{ background-color: #f0eada;}
-    to { background-color: #e0d5b4;}
-}
-=======
 /*donkerbruine kleurRGB: 224, 213,180
   lichtbruine kleur:RGB: 240, 234, 218*/
 
@@ -105,7 +20,7 @@ font-family: 'Myriad Pro', 'Arial';
 header {
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: rgba(224, 213,180);
 }
 
 .name{
@@ -141,7 +56,7 @@ header {
 }
 
 .BtnNavi:hover{
-    background-color: whitesmoke;
+    background-color: rgba(240, 234, 218);
 
     animation-name: hover;
     animation-duration: 1s;
@@ -174,6 +89,6 @@ header {
 /*________________________________________________________*/
 
 @keyframes hover{
-    from{ background-color: white;}
-    to { background-color: whitesmoke;}
+    from{ background-color: rgba(224, 213,180);}
+    to { background-color: rgba(240, 234, 218);}
 }
