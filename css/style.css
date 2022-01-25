@@ -1,5 +1,5 @@
-/*donkerbruine kleurRGB: 224, 213,180
-  lichtbruine kleur:RGB: 240, 234, 218*/
+/*donkerbruine kleurRGB: 224, 213,180 #e0d5b4
+  lichtbruine kleurRGB: 240, 234, 218 #f0eada*/
 
 /*________________________________________________________*/
 /*___setup________________________________________________*/
@@ -19,7 +19,7 @@ font-family: 'Myriad Pro', 'Arial';
 header {
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: #f0eada;
 }
 
 .name{
@@ -54,7 +54,7 @@ header {
 }
 
 .BtnNavi:hover{
-    background-color: whitesmoke;
+    background-color: #e0d5b4;
 
     animation-name: hover;
     animation-duration: 1s;
@@ -79,6 +79,6 @@ header {
 /*________________________________________________________*/
 
 @keyframes hover{
-    from{ background-color: white;}
-    to { background-color: whitesmoke;}
+    from{ background-color: #f0eada;}
+    to { background-color: #e0d5b4;}
 }
