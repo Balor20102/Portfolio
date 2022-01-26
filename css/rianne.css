@@ -3,10 +3,8 @@
     display: block;
     float: left;
 
-    padding: 25px 50px;
-    margin-right: 100px;
-
-    font-size: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
 
     text-decoration: none;
     color: black;
@@ -17,45 +15,4 @@
 
     animation-name: hover;
     animation-duration: 1s;
-}
-
-/*________________________________________________________*/
-/*___achtergrond__________________________________________*/
-/*________________________________________________________*/
-
-.Background{
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(58, 145, 160, 0.7)), url(../resources/mountains_3.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 600px;
-}
-
-/*________________________________________________________*/
-/*___bovendeel____________________________________________*/
-/*________________________________________________________*/
-.container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 150px);
-}
-
-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-
-    background-color: rgba(224, 213,180);
-    padding: 10px;
-    margin: 10px 20px;
-}
-
-
-/*________________________________________________________*/
-/*___animations___________________________________________*/
-/*________________________________________________________*/
-
-@keyframes hover{
-    from{ background-color: rgba(224, 213,180);}
-    to { background-color: rgba(240, 234, 218);}
 }
