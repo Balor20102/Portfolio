@@ -66,7 +66,7 @@ header {
 /*________________________________________________________*/
 
 .Background{
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(58, 145, 160, 0.7)), url(../resources/mountains_3.jpg);
+    background-image: linear-gradient(to right bottom, rgba(224, 213,180, 0.7), rgba(240, 234, 218, 0.7)), url(../resources/mountains_3.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
