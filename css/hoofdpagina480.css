@@ -1,0 +1,273 @@
+ 
+    /*___________________________________________________________________________________________________________________*/
+    /*___Phone_________________________________________________________________________________________________________*/
+    /*___________________________________________________________________________________________________________________*/
+    
+    @media only screen and (max-width: 480px) {
+        .Background{
+            background-image: linear-gradient(to right bottom, rgba(224, 213,180, 0.7), rgba(240, 234, 218, 0.7)), url(../resources/mountains_3.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 2000px;
+            width: 480px;
+        }
+    
+    /*________________________________________________________*/
+    /*___bovendeel____________________________________________*/
+    /*________________________________________________________*/
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(13, 150px);
+    }
+    
+    .porfielfoto{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    
+        background-color: rgba(224, 213,180);
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 70%;
+    }
+    
+    
+    
+    /*________________________________________________________*/
+    /*___Header_______________________________________________*/
+    /*________________________________________________________*/
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(224, 213,180);
+        width: 480px;
+      }
+    
+      .name{
+          display: block;
+           float:  right;
+
+           margin: 0%;
+           padding-right: 1%;
+           padding-top: 50px;
+           
+           font-size: 30px;
+           font-family: 'Monotype Corsiva', 'Calibri italic';
+    
+           text-decoration: none;
+           color: black;
+           font-family: ;
+       }
+    
+      .BtnNavi{
+    
+          display: block;
+          float: left;
+
+         padding-right: 1%;
+         padding-top: 50px;
+
+          font-size: 20px;
+    
+          text-decoration: none;
+          color: black;
+      }
+
+      .BtnNaviIcon{
+
+        display: block;
+        float: left;
+
+        padding: 30px 0%;
+    
+        text-decoration: none;
+        color: black;
+    }
+    
+    .BtnNaviIcon:hover{
+        background-color: rgba(240, 234, 218);
+    
+        animation-name: hover;
+        animation-duration: 1s;
+    }
+    
+    
+    /*_________________________________________*/
+    /*___tekstbox1_____________________________*/
+    /*_________________________________________*/
+    
+    .title{
+        padding: 5px;
+        margin-left: 2%;
+        text-align: center;
+    
+        grid-row: 2/4;
+        grid-column: 2/5;
+    }
+    
+    .ouline{
+        padding: 10px;
+        background-color: rgba(240, 234, 218);
+        outline: black 1px solid;
+    }
+    
+    .tekstbox{
+        padding: 10px;
+        background-color: rgba(224, 213,180);
+        outline: black 1px solid;
+        height: 90%;
+    }
+    
+    /*_________________________________________*/
+    /*___tekstbox2_____________________________*/
+    /*_________________________________________*/
+    
+    .title2{
+        padding: 5px;
+        margin-left: 2%;
+        text-align: center;
+    
+        grid-row: 4/6;
+        grid-column: 2/5;
+    }
+    
+    .tekstbox2{
+        padding: 10px;
+        background-color: rgba(224, 213,180);
+        outline: black 1px solid;
+        height: 100%;
+        
+    }
+    
+    /*________________________________________________________*/
+    /*___werk_________________________________________________*/
+    /*________________________________________________________*/
+    
+    .DeelTitle{
+        grid-column: 1/6;
+        text-align: center;
+        grid-row: 6/7;
+    }
+    
+    .Work{
+        grid-column: 1/5;
+        grid-row: 10/13;
+    
+        margin-left: 10%;
+    
+        text-align: center;
+    
+    }
+    
+    
+    .foto2{
+        margin-left: 10%;
+        grid-column: 1/6;
+        grid-row: 7/10;
+        width: 80%;
+        height: 80%
+    }
+
+
+/*________________________________________________________*/
+/*___progress_____________________________________________*/
+/*________________________________________________________*/
+            
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2,300px);
+    padding: 10px;
+    border: 0px;
+}
+
+.progress{
+    padding: 20px;
+    background-color: rgba(224, 213,180);
+    outline: black 1px solid;
+    margin-left: 2%;
+
+    text-align: center;
+
+    width: 90%; 
+}
+
+.progressbox{
+    padding: 10px;
+    background-color: rgba(240, 234, 218);
+    outline: black 1px solid;
+    height: 190px;
+}
+
+/*________________________________________________________*/
+/*___resultaat____________________________________________*/
+/*________________________________________________________*/
+
+.resultaat{
+    padding: 20px;
+    margin-left: 2% ;
+
+    background-color: rgba(224, 213,180);
+    outline: black 1px solid;
+    text-align: center;
+
+    width: 90%;
+}
+
+.tekstbox3{
+    padding: 10px;
+    background-color: rgba(240, 234, 218);
+    outline: black 1px solid;
+    height: 190px;
+}
+
+.ster{
+    margin-top: 53%;
+    color: rgb(252, 252, 89);
+}
+
+/*________________________________________________________*/
+/*___samenwerken____________________________________________*/
+/*________________________________________________________*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3,300px);
+    padding: 10px;
+    border: 0px;
+  }
+
+.samengewerkt{
+    text-align: center;
+    padding-top: 25%;
+    grid-column: 1/3;
+}    
+  
+.grid-item {
+    background-color:rgb(236, 190, 63);
+    border: 1px solid rgba(1, 1, 1, 1);
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+
+  .grid-item2 {
+    background-color:rgb(236, 190, 63);
+    border: 1px solid rgba(1, 1, 1, 1);
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+    }
