@@ -73,28 +73,28 @@
 /*___resultaat____________________________________________*/
 /*________________________________________________________*/
         
-        .resultaat{
-            padding: 20px;
-            margin-left: 4% ;
+.resultaat{
+    padding: 20px;
+    margin-left: 4% ;
 
-            background-color: rgba(224, 213,180);
-            outline: black 1px solid;
-            text-align: center;
+    background-color: rgba(224, 213,180);
+    outline: black 1px solid;
+    text-align: center;
 
-            width: 90%;
-        }
+    width: 90%;
+    }
 
-        .tekstbox3{
-            padding: 10px;
-            background-color: rgba(240, 234, 218);
-            outline: black 1px solid;
-            height: 190px;
-        }
+.tekstbox3{
+    padding: 10px;
+    background-color: rgba(240, 234, 218);
+    outline: black 1px solid;
+    height: 190px;
+    }
 
-        .ster{
-            margin-top: 25%;
-            color: rgb(252, 252, 89);
-        }
+.ster{
+     margin-top: 24%;
+    color: rgb(252, 252, 89);
+ }
 
 /*________________________________________________________*/
 /*___samenwerken____________________________________________*/
