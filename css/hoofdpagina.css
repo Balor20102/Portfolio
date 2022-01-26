@@ -61,6 +61,25 @@ header {
     animation-duration: 1s;
 }
 
+.BtnNaviIcon{
+
+    display: block;
+    float: left;
+
+    padding: 5px 10px;
+    margin-right: 10px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.BtnNaviIcon:hover{
+    background-color: rgba(240, 234, 218);
+
+    animation-name: hover;
+    animation-duration: 1s;
+}
+
 /*________________________________________________________*/
 /*___achtergrond__________________________________________*/
 /*________________________________________________________*/
@@ -113,7 +132,7 @@ header {
     padding: 10px;
     background-color: rgba(224, 213,180);
     outline: black 1px solid;
-    
+
 }
 
 /*_________________________________________*/
@@ -131,7 +150,7 @@ header {
     padding: 10px;
     background-color: rgba(224, 213,180);
     outline: black 1px solid;
-    
+
 }
 
 /*_________________________________________*/
@@ -150,7 +169,7 @@ header {
 
 .Vak1{
     margin-left: 25px;
-    
+
     width: 80%;
     height: 170px;
     background-color: rgba(224, 213,180);
@@ -160,9 +179,9 @@ header {
 .Leeftijd{
     margin-top: 20px;
     margin-left: 25px;
-    
+
     width: 80%;
-    
+
     background-color: rgba(224, 213,180);
     outline: black 1px solid;
 }
@@ -170,7 +189,7 @@ header {
 .Info{
     margin-top: 20px;
     margin-left: 25px;
-    
+
     width: 80%;
     height: 270px;
 
@@ -228,20 +247,20 @@ header {
         position: relative;
         height: 820px;
     }
-    
+
     .DeelTitle{
         grid-column: 3/6;
         padding-top: 80px;
     }
-    
+
     .Work{
         margin-right: 5%;
         grid-column: 4/6;
-    
+
         text-align: center;
-    
+
     }
-    
+
     .foto2{
         margin: 5%;
         grid-column: 2/4;
@@ -286,34 +305,34 @@ header {
     flex-direction: row;
     background-color: rgba(224, 213,180);
   }
-  
+
   .name{
       display: block;
        float:  right;
-  
+
        padding: 25px 25px;
        margin-top: 2px;
        margin-right: 10px;
        margin-left: 10px;
-  
+
        font-size: 30px;
        font-family: 'Monotype Corsiva', 'Calibri italic';
-  
+
        text-decoration: none;
        color: black;
        font-family: ;
    }
-  
+
   .BtnNavi{
-  
+
       display: block;
       float: left;
-  
+
       padding: 25px 25px;
       margin-right: 10px;
-  
+
       font-size: 20px;
-  
+
       text-decoration: none;
       color: black;
   }
@@ -343,7 +362,7 @@ header {
     width: 80%;
     height: 80%
 }
-  
+
 }
 
 
@@ -383,34 +402,34 @@ header {
     flex-direction: row;
     background-color: rgba(224, 213,180);
   }
-  
+
   .name{
       display: block;
        float:  right;
-  
+
        padding: 25px 10px;
        margin-top: 2px;
        margin-right: 10px;
        margin-left: 10px;
-  
+
        font-size: 30px;
        font-family: 'Monotype Corsiva', 'Calibri italic';
-  
+
        text-decoration: none;
        color: black;
        font-family: ;
    }
-  
+
   .BtnNavi{
-  
+
       display: block;
       float: left;
-  
+
       padding: 25px 10px;
       margin-right: 10px;
-  
+
       font-size: 20px;
-  
+
       text-decoration: none;
       color: black;
   }
@@ -437,7 +456,7 @@ header {
     padding: 10px;
     background-color: rgba(224, 213,180);
     outline: black 1px solid;
-    
+
 }
 
 /*_________________________________________*/
@@ -458,7 +477,7 @@ header {
     padding: 10px;
     background-color: rgba(224, 213,180);
     outline: black 1px solid;
-    
+
 }
 
 /*________________________________________________________*/
