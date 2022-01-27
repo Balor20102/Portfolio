@@ -83,6 +83,36 @@
         animation-name: hover;
         animation-duration: 1s;
     }
+
+    
+/*_________________________________________*/
+/*___personal info_________________________*/
+/*_________________________________________*/
+
+.Personal{
+    margin-top: 50px;
+    margin-left: 10px;
+    grid-row: 2/6;
+
+    background-color: rgba(240, 234, 218);
+    text-align: center;
+    outline: black 1px solid;
+}
+    .Vak1{
+        margin-left: 25px;
+
+        width: 80%;
+        height: 170px;
+        background-color: rgba(224, 213,180);
+        outline: black 1px solid;
+    }
+
+    .Vak1_img{
+      width: 80%;
+      height: 170px;
+      outline: black 1px solid;
+    }
+
     
     /*_________________________________________*/
     /*___tekstbox1_____________________________*/
@@ -139,6 +169,7 @@
         grid-column: 1/6;
         text-align: center;
         grid-row: 6/7;
+        margin-top: 2%;
     }
     
     .Work{

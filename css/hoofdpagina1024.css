@@ -9,10 +9,42 @@
             background-size: cover;
             background-position: center;
             position: relative;
-            height: 1000px;
+            height: 1500px;
         }
 
-        
+        .container{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 250px);
+        }
+
+/*_________________________________________*/
+/*___personal info_________________________*/
+/*_________________________________________*/
+
+    .Personal{
+        margin-top: 50px;
+        margin-left: 10px;
+        grid-row: 2/5;
+
+        background-color: rgba(240, 234, 218);
+        text-align: center;
+        outline: black 1px solid;
+    }
+        .Vak1{
+            margin-left: 25px;
+    
+            width: 80%;
+            height: 170px;
+            background-color: rgba(224, 213,180);
+            outline: black 1px solid;
+        }
+    
+        .Vak1_img{
+          width: 80%;
+          height: 170px;
+          outline: black 1px solid;
+        }
 
     /*________________________________________________________*/
     /*___werk_________________________________________________*/
@@ -21,6 +53,7 @@
     .DeelTitle{
         grid-column: 3/6;
         padding-top: 40px;
+        margin-top: 10%;
     }
     
     .Work{
